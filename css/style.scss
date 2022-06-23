@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  color: #333333;
+  h1 {
+    font-size: 60px;
+    font-family: monospace;
+    letter-spacing: 25px;
+    margin-bottom: 0;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    input[type="color"] {
+      border: none;
+      cursor: pointer;
+      background-color: white;
+    }
+  }
+  h2 {
+    letter-spacing: 5px;
+  }
+  .rgb-value {
+    font-weight: bold;
+  }
+}
